@@ -84,7 +84,7 @@ runnableExamples:
 
   doAssert median(F,0,5,FCmp) == 5.0
 
-from std/math import FloatClass, sqrt, pow, round
+from math import FloatClass, sqrt, pow, round
 
 {.push debugger: off.} # the user does not want to trace a part
                        # of the standard library!
